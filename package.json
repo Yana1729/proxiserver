@@ -1,5 +1,5 @@
 {
-  "name": "my-node-project",
+  "name": "proxi",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "eslint": "^9.23.0"
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-cache": "^5.1.2",
+    "request": "^2.88.2"
   }
 }
